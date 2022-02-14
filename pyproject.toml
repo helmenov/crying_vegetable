@@ -5,7 +5,7 @@ description = "create vocoded vegetable cry sound from time variant NDI values"
 authors = ["Kotaro SONODA <kotaro@nagasaki-u.ac.jp>"]
 license = "MIT"
 readme = "README.md"
-include = ["output_6_0.png", "output_10_0.png", "output_12_1.png"]
+include = ["output_6_0.png", "output_10_0.png", "output_12_1.png", "docs"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
