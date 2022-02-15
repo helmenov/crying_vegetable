@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "crying_vegetable"
-version = "0.2.2"
+version = "0.2.3"
 description = "create vocoded vegetable cry sound from time variant NDI values"
 authors = ["Kotaro SONODA <kotaro@nagasaki-u.ac.jp>"]
 license = "MIT"
@@ -19,6 +19,7 @@ matplotlib = "^3.5.1"
 japanize-matplotlib = "^1.1.3"
 Pillow = "9.0.0"
 SciencePlots = "^1.0.9"
+kslib = {git = "https://github.com/helmenov/kslib", rev = "main"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

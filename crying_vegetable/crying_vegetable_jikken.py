@@ -19,8 +19,8 @@ import soundfile as sf
 import numpy as np
 from scipy import signal as scisig
 from scipy import fftpack as scifft
-from . import vocoder, reduct_frac
-from .mattoolbox import signal as matsig
+from kslib import vocoder, reduct_frac
+from kslib.mattoolbox import signal as matsig
 from . import vegetablecry as vc
 from IPython.display import Audio
 from matplotlib import pyplot as plt

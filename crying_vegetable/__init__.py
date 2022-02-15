@@ -2,5 +2,5 @@
 .. include:: ../../README.md
 """
 
-from . import reduct_frac, vegetablecry, vocoder
-from .mattoolbox import signal
+from kslib import reduct_frac, vocoder
+from kslib.mattoolbox import signal as matsig
